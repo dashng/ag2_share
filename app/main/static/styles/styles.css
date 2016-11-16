@@ -1,0 +1,44 @@
+/* Master Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+html, body {
+    display:block;
+    overflow:hidden;
+}
+
+.content{
+    width:100%;
+    min-height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left{
+    position:relative;
+    float:left;
+    width:320px;
+    min-height:100%;
+    margin-left:-100%;
+    border-right: 1px dashed #ddd;
+}
+
+.main{
+    position:relative;
+    float:left;
+    min-width:100%;
+    min-height:100%;
+}
+ul.topics {
+    margin-top:25px;
+}
+ul.topics li{
+    margin:15px 0px;
+    list-style: disc;
+}

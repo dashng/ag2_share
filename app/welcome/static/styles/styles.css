@@ -1,0 +1,25 @@
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.welcome{
+  margin:20% 20%;
+}
+
+welcome.label{
+  float:left;
+}
+
+.author{
+  float:left;
+  background: url('app/welcome/static/img/shdai.jpg') no-repeat;
+  width:120px;
+  height:120px;
+}
