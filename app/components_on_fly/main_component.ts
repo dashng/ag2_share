@@ -36,6 +36,7 @@ export class MainComponetFly{
     }
     public addComponent(){
        let cf = this.compoResolver.resolveComponentFactory(SubComponentFly);
-       this.viewContainerRef.createComponent(cf);
+       let compo = this.viewContainerRef.createComponent(cf);
+       compo.instance.createTime = new Date().toUTCString();
     }
 }
