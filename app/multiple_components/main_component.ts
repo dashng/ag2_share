@@ -13,7 +13,7 @@ import { SubComponent } from './sub_component';
     styles: [`
 
     `],
-    providers: [SubComponent] 
+    providers: [SubComponent]
 })
 
 export class MainComponent{
