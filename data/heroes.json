@@ -1,0 +1,35 @@
+{
+    "heroes": [
+        {
+            "name": "瓦里安·乌瑞恩",
+            "nickname": "联盟的至高王",
+            "desc": "暴风城的国王瓦里安·乌瑞恩拥有一段波澜壮阔的人生历程。他的愤怒震慑了兽人部落、他的奉献保住了一个国家。他可以通过双手持握莎拉迈恩、将其分成两把剑进行双持或是单手持剑再加上盾牌来转换战斗方式，面对不同的战斗情况。不管在战场上战斗的是乌瑞恩国王或是洛戈什，他都是一名强大无比的战士。",
+            "avatar": "http://heroes.nos.netease.com/2/cms/hero/VARIAN/Varian_Base_Warrior_looped.webm"
+        },
+        {
+            "name": "拉格纳罗斯",
+            "nickname": "炎魔之王",
+            "desc": "拉格纳罗斯作为和艾泽拉斯大陆一样古老的元素领主，他曾被召唤到很多不同的领域，但鲜有一个能像时空枢纽般符合他的毁灭本质。拉格纳罗斯挥舞着强大的烈焰之锤萨弗拉斯，占据被摧毁的堡垒，用落石和熔岩淹没来袭的敌人，势要将这个新世界烧成灰烬。 虽然他的力量很强大，但召唤他的人也要做好整个世界被摧毁的准备。",
+            "avatar": "http://heroes.nos.netease.com/2/cms/hero/Ragnaros/Ragnaros_Base_looped.webm"
+        },
+        {
+            "name": "萨穆罗",
+            "nickname": "剑圣",
+             "desc": "作为最后一个背负着火刃旌旗的剑圣，萨穆罗为了为自己的氏族复仇和救赎踏上了战士的朝圣之道。尽管任重而道远，但他已立誓要让氏族重获曾经的荣耀。",
+             "avatar": "http://heroes.nos.netease.com/2/cms/hero/samuro/samuro_theBlademaster.webm"
+        },
+        {
+            "name": "查莉娅",
+            "nickname": "俄罗斯卫士",
+            "desc": "亚历山德拉·查莉娅诺娃是世界上最强壮的女性之一，还曾是一名前途光明的运动员，但一切都在西伯利亚的智械中枢觉醒后发生了改变。作为俄罗斯防御部队的一名士兵，她现在满怀自豪，用自己的力量保护她所珍爱的人。",
+            "avatar": "http://heroes.nos.netease.com/2/cms/hero/Zarya/zarya_defenderOfRussia.webm"
+        },
+        {
+            "name": "阿拉纳克",
+            "nickname": "塔达林高阶领主",
+            "desc": "并不是所有英雄生来就是无私的……有些英雄，比如阿拉纳克只是渴望复仇而已。作为塔达林的新高阶领主，阿拉纳克带领着他的人民踏上了摆脱堕落萨尔纳加埃蒙的腐蚀的道路。",
+            "avatar": "http://heroes.nos.netease.com/2/cms/hero/alarake/alarak_highlordOfTaldarim.webm"
+        }
+    ] 
+
+}

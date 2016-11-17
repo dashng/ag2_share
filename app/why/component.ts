@@ -21,6 +21,11 @@ import { Component, OnInit } from '@angular/core';
         .trends{
             clear: both;
         }
+        ul li{
+            list-style: square;
+            font-size:12px;
+            margin: 9px 12px;
+        }
     `],
     template: `
         <ul class="menu-tab"> 

@@ -37,8 +37,10 @@ html, body {
 }
 ul.topics {
     margin-top:25px;
+    list-style: none;
 }
 ul.topics li{
     margin:15px 0px;
-    list-style: disc;
+    list-style: none;
+    border-bottom: 1px dashed #eee;
 }

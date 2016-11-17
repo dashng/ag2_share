@@ -19,7 +19,7 @@ import { Observable } from 'rxjs'
         <div #placeholder>
         </div>
         <br/>
-        <button (click)="addComponent()">Add sub component</button><button>Add Component</button>
+        <button (click)="addComponent()">Add sub component</button>
     `,
     styles: [`
     `]

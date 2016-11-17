@@ -8,7 +8,7 @@ import * as $ from 'jquery';
   template: `
       <div class="content">
         <div class="main">
-            <div style="margin-left:350px;">
+            <div style="margin-left:350px; margin-top:20px;position:relative;">
               <router-outlet></router-outlet>
             </div>
         </div>
@@ -23,11 +23,13 @@ import * as $ from 'jquery';
             <li>
               <a href="#/multiple_components_fly">Create components on the fly</a>
             </li>
+            <li>
+              <a href="#/service">Services</a>
+            </li>
             <li><a href="#/routers_config">Routers configuration</a></li>
             <li><a href="#/vsc">Visual Source Code</a></li>
           </ul>
         </div>
-        
       </div>
     `
 })

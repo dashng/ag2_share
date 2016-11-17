@@ -9,6 +9,7 @@ import { MainComponent } from './multiple_components/main_component';
 import { SubComponent } from './multiple_components/sub_component';
 import { MainComponetFly } from './components_on_fly/main_component';
 import { SubComponentFly } from './components_on_fly/sub_component';
+import { ServiceComponent } from './service_component/component';
 
 export const appRoutes: Routes = [
     {
@@ -36,6 +37,10 @@ export const appRoutes: Routes = [
         path: 'multiple_components_fly',
         component: MainComponetFly
     },
+    {
+        path: 'service',
+        component: ServiceComponent
+    },
     { path: '**', component: WelcomeComponent }
 ];
 
@@ -49,5 +54,6 @@ export const declarations: Component[] = [
     MainComponent,
     SubComponent,
     MainComponetFly,
-    SubComponentFly
+    SubComponentFly,
+    ServiceComponent
 ]

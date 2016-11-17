@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
         <div class="welcome.label">
           <h1>Angular2 TS Introduction</h1>
           <h3>shdai@cisco.com</h3>
+          <i>2016/11/17</i>
         </div>
       </div>
     `
