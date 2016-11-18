@@ -1,4 +1,4 @@
-import { Component, ElementRef } from '@angular/core';
+import { Component, ElementRef, OnChanges, SimpleChanges } from '@angular/core';
 
 @Component({
     selector: 'bindings',
@@ -17,7 +17,7 @@ import { Component, ElementRef } from '@angular/core';
             <input [(ngModel)]="ifd_test" value="" placeholder="Input something ..." />
             {{ifd_test}}
             <hr/>
-            <button (click)="setTimestamp()" >Current Timestamps</button>
+            <button (click)="setTimestamp()" >Set current timestamps</button>
         </div>
 
         <dl>
@@ -36,13 +36,17 @@ import { Component, ElementRef } from '@angular/core';
     `
 })
 
-export class BindingsComponent{
+export class BindingsComponent implements OnChanges{
     private ifd_test: string = ''; 
     constructor(public elementRef: ElementRef){
 
     }
     public setTimestamp(){
         this.ifd_test = new Date().getTime().toString();
+    }
+
+    public ngOnChanges(changes: SimpleChanges){
+        console.log(changes);
     }
 }
 
