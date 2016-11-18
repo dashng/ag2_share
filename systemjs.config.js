@@ -7,13 +7,17 @@
 
 
         "bootstrap":                       "node_modules/bootstrap",
-        "jquery":                          "node_modules/jquery/dist"
+        "jquery":                          "node_modules/jquery/dist",
+        "codemirror":                      "node_modules/codemirror/lib",
+        "codemirror_js_mode":              "node_modules/codemirror/mode/javascript" 
     };
     var packages = {
         "app":                            { main: "index.js",  defaultExtension: "js" },
         "rxjs":                           { defaultExtension: "js" },
         "angular2-in-memory-web-api":     { main: "index.js", defaultExtension: "js" },
-        "jquery":                         { main: "jquery.min.js", defaultExtension: "js"} 
+        "jquery":                         { main: "jquery.min.js", defaultExtension: "js"}, 
+        "codemirror":                     { main: "codemirror.js", defaultExtension: "js"},
+        "codemirror_js_mode":             { main: "javascript.js", defaultExtension: "js"}
     };
     var ngPackageNames = [
         "common",

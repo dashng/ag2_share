@@ -10,7 +10,7 @@ import {
 
 import { SubComponentFly } from './sub_component';
 
-import { Observable } from 'rxjs'
+import { Observable } from 'rxjs';
 
 @Component({
     selector: 'main-component-fly',

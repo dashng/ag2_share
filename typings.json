@@ -1,5 +1,6 @@
 {
   "globalDependencies": {
+    "codemirror": "registry:dt/codemirror#0.0.0+20161019121846",
     "jquery": "registry:dt/jquery#1.10.0+20160929162922"
   }
 }

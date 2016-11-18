@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 
 @Component({
     selector: 'bindings',
@@ -38,7 +38,9 @@ import { Component } from '@angular/core';
 
 export class BindingsComponent{
     private ifd_test: string = ''; 
+    constructor(public elementRef: ElementRef){
 
+    }
     public setTimestamp(){
         this.ifd_test = new Date().getTime().toString();
     }
