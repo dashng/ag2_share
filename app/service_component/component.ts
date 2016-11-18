@@ -40,7 +40,7 @@ import * as $  from 'jquery';
             </div>
         </div>
         <div style="position:absolute;top:0px;left:0px;z-index:979;width:100%;background:#333;min-height:350px;" >
-            <video loop="" autoplay="true" *ngIf="avatar" ><source src="{{avatar}}" type="video/webm"></video>
+            <video loop="" autoplay="true" *ngIf="avatar" style="max-width:750px;" ><source src="{{avatar}}" type="video/webm"></video>
         </div>
         
         
